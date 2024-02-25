@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree", sans-serif;
+  padding: 15px;
+}
+
+main .card {
+  padding: 25px;
+  border-radius: 20px;
+  border: 1px solid hsl(0, 0%, 7%);
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 10px 10px 0px 0px rgb(18, 18, 18);
+}
+main .card .top {
+  margin-bottom: 15px;
+}
+main .card .top img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+main .card .bottom .tag {
+  color: hsl(0, 0%, 7%);
+  font-weight: 900;
+  background-color: hsl(47, 88%, 63%);
+  padding: 6px 8px;
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+main .card .bottom .date {
+  font-size: 15px;
+  font-weight: 600;
+  color: hsl(0, 0%, 7%);
+  margin-bottom: 20px;
+}
+main .card .bottom .title {
+  font-weight: 900;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+main .card .bottom .desc {
+  margin-bottom: 20px;
+  color: hsl(0, 0%, 50%);
+  display: block;
+  max-width: 370px;
+  line-height: 25px;
+  font-weight: 500;
+  font-size: 17px;
+}
+main .card .bottom .containerUser {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+main .card .bottom .containerUser .avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .card .bottom .containerUser .name {
+  font-weight: 900;
+}
+main:hover {
+  border-radius: 20px;
+  box-shadow: 15px 15px 0px 5px rgb(18, 18, 18);
+}
+main:hover .bottom .title {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}/*# sourceMappingURL=styles.css.map */
